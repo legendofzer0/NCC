@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="center">TODO Plain HTML/CSS/JS</h1>
+
+    <form id="form">
+      <label for="Title">Title:</label>
+      <input type="text" name="Title" class="title" id="Title" required /><br />
+      <br />
+      <label for="Description" class="dis">Description:</label>
+      <input type="text" name="Description" id="Description" required /><br />
+      <br />
+      <input type="submit" value="Add Task" />
+    </form>
+    <br /><br /><br />
+    <table>
+      <thead>
+        <tr>
+          <th>S.N</th>
+          <th>Title</th>
+          <th>Description</th>
+          <th colspan="2">Action</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+  </body>
+  <script src="script.js"></script>
+</html>

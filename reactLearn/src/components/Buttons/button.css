@@ -1,0 +1,8 @@
+button {
+  background-color: black;
+  color: white;
+}
+button:active {
+  background-color: rgb(216, 216, 216);
+  color: rgb(98, 98, 98);
+}
